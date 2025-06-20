@@ -51,16 +51,12 @@ const HeroSection = () => {
                         </div>
 
                         {/* Heading */}
-                        
-
-<h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-  Meet Your{' '}
-  <ShinyText
-    text="Perfect App"
-    speed={5}
-    className="text-5xl md:text-7xl font-bold leading-tight"
-  />
-</h1>
+                        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                            Meet Your{' '}
+                            <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient bg-300%">
+                                Perfect App
+                            </span>
+                        </h1>
 
 
                         {/* Description */}
