@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Sparkles, MessageCircle } from 'lucide-react';
-import ShinyText from './ShinyText';
 // Hero Section Component
 const HeroSection = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
