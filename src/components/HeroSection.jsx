@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Sparkles, MessageCircle } from 'lucide-react';
-
+import ShinyText from './ShinyText';
 // Hero Section Component
 const HeroSection = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -52,12 +52,17 @@ const HeroSection = () => {
                         </div>
 
                         {/* Heading */}
-                        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                            Meet Your{' '}
-                            <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-gradient bg-300%">
-                                Perfect App
-                            </span>
-                        </h1>
+                        
+
+<h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+  Meet Your{' '}
+  <ShinyText
+    text="Perfect App"
+    speed={5}
+    className="text-5xl md:text-7xl font-bold leading-tight"
+  />
+</h1>
+
 
                         {/* Description */}
                         <p className="text-xl md:text-2xl text-white/80 mb-10 max-w-2xl leading-relaxed mx-auto lg:mx-0">
@@ -70,7 +75,7 @@ const HeroSection = () => {
                             <motion.a
                                 whileHover={{ scale: 1.08 }}
                                 whileTap={{ scale: 0.95 }}
-                                href="https://d1yh3zqy4qqnef.cloudfront.net/"
+                                href="https://rohandhore-portfolio.vercel.app/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group relative bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-semibold text-lg shadow-2xl shadow-cyan-500/30 overflow-hidden"

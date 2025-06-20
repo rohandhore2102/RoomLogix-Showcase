@@ -70,7 +70,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Roomlogix. All rights reserved.
           <br className="md:hidden" />
           <span className="block md:inline ml-1">
-            Crafted with precision by <a href="https://d1yh3zqy4qqnef.cloudfront.net/" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-cyan-400 transition">Rohan</a>
+            Crafted with precision by <a href="https://rohandhore-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-cyan-400 transition">Rohan</a>
           </span>
         </p>
       </div>

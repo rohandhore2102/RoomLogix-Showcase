@@ -27,7 +27,7 @@ const DownloadSection = () => {
           </p>
 
           <motion.a
-            href="https://d1yh3zqy4qqnef.cloudfront.net/"
+            href="https://rohandhore-portfolio.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
