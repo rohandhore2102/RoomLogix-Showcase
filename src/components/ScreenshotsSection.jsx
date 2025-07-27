@@ -14,13 +14,13 @@ const ScreenshotsSection = () => {
     const touchEndX = useRef(null);
 
     const screenshots = [
-        { id: 1, title: "Dashboard", image: "/images/pic1.png", desc: "Clean, intuitive interface" },
-        { id: 2, title: "Tenant Details", image: "/images/pic2.png", desc: "Add, Edit Tenant Details" },
-        { id: 3, title: "Rooms Management", image: "/images/pic3.png", desc: "Manage Rooms, Rent, Lightbill" },
-        { id: 4, title: "Tenant Management", image: "/images/pic4.png", desc: "Manage Rent & Light Bill Of Tenant" },
-        { id: 5, title: "Light Bill Calulator", image: "/images/pic5.png", desc: "Auto Calculate Light Bill" },
-        { id: 6, title: "Other Payments", image: "/images/pic6.png", desc: "Manage Different Types Other Bills " },
-        { id: 7, title: "Developed By", image: "/images/pic7.png", desc: "Rohan Dhore" }
+        { id: 1, title: "Dashboard", image: "/images/pic1.webp", desc: "Clean, intuitive interface" },
+        { id: 2, title: "Tenant Details", image: "/images/pic2.webp", desc: "Add, Edit Tenant Details" },
+        { id: 3, title: "Rooms Management", image: "/images/pic3.webp", desc: "Manage Rooms, Rent, Lightbill" },
+        { id: 4, title: "Tenant Management", image: "/images/pic4.webp", desc: "Manage Rent & Light Bill Of Tenant" },
+        { id: 5, title: "Light Bill Calulator", image: "/images/pic5.webp", desc: "Auto Calculate Light Bill" },
+        { id: 6, title: "Other Payments", image: "/images/pic6.webp", desc: "Manage Different Types Other Bills " },
+        { id: 7, title: "Developed By", image: "/images/pic7.webp", desc: "Rohan Dhore" }
     ];
 
     // Desktop autoplay

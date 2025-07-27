@@ -96,7 +96,7 @@ const HeroSection = () => {
                         {/* Glow Background Behind Image */}
                         <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full blur-3xl opacity-20 animate-pulse z-0" />
                         <img
-                            src="/images/HeroPic.png"
+                            src="/images/HeroPic.webp"
                             alt="App Hero"
                             className="relative z-10 w-full "
                         />
